@@ -11,7 +11,7 @@ MANDIR=/usr/local/man/man1
 CC=gcc
 
 #FLAGS=-O -nointl		# SCO
-FLAGS= -O -g -Wall
+FLAGS= -O3 -g -Wall
 
 #LIBS= -lnsl -lsocket		# SYSVR4 / SOLARIS
 #LIBS= -lsocket -lmalloc -lc_s	# SCO
@@ -41,6 +41,7 @@ $(MAN):
 $(INSTALLDIR)/$(BIN): $(BIN)
 	-rm -f $(INSTALLDIR)/$(BIN)
 	install -m 755 -s $(BIN) $(INSTALLDIR)/$(BIN)
+	strip  $(INSTALLDIR)/$(BIN)
 $(LIBDIR)/$(DATA): $(DATA)
 	-rm -f $(LIBDIR)/$(DATA)
 	install -m 644 $(DATA) $(LIBDIR)/$(DATA)

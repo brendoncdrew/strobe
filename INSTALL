@@ -5,7 +5,7 @@
 (4) read the man page
 
 (5) if you find any staticly assigned tcp ports that it doesn't know about, then
-    send me a description so I can add it to the strobe.services database.
+    send me a description so I can add it to the "strobe.services" database or just add them your damn self.
 
 Happy strobing!
 

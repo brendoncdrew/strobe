@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/workspaces/strobe",
+            "binaryPath": "/workspaces/strobe/strobe",
+            "binaryArgs": [localhost]
+        }
+    ]
+}

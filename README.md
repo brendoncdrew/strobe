@@ -1,4 +1,11 @@
 #Strobe
+ .m,      .mmm,     .mm,       .m,      .mm,      .mmm,
+.P"T      '"W"`     ]P"T[      W"W      ]P"T[     ]P""`
+]b          W       ][ ][     ][ ][     ][ ][     ][
+ TWb        W       ]WWW      ][ ][     ]WWW      ]WWW
+   T[       W       ]['W,     ][ ][     ][ ][     ][
+]mmd`       W       ][ ][      WmW      ]bmd[     ]bmm,
+ ""`        "       '` '"      '"`      '"""      '"""`
 ## strobe - Super optimised TCP port surveyor
 
 DESCRIPTION
